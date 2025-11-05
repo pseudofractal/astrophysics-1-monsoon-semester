@@ -2,7 +2,7 @@
 
 #show: report.with(
   title: [Dark Energy and Cosmic Expansion],
-  author: "Kshitsh Kumar Ratha",
+  author: "Kshitish Kumar Ratha",
   date: datetime(year: 2025, day: 5, month: 11),
   abstract: [
     The discovery that the universe is undergoing accelerated expansion has reshaped modern cosmology.
@@ -13,6 +13,6 @@
     the observational probes confirming it, and the theoretical attempts to explain the phenomenon within
     and beyond general relativity.
   ],
-  bibliography: bibliography("bibliography.yml"),
+  bibliography: bibliography("bibliography.yml", full: true, style: "spie"),
 )
 

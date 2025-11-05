@@ -72,7 +72,7 @@
   page(
     align(
       left + horizon,
-      block(width: 90%)[
+      block(width: 95%)[
         #let v-space = v(2em, weak: true)
         #text(3em)[*#title*]
 
@@ -81,7 +81,7 @@
 
         #if abstract != none {
           v-space
-          block(width: 80%)[
+          block(width: 85%)[
             #par(leading: 0.78em, justify: true, linebreaks: "optimized", abstract)
           ]
         }
@@ -107,9 +107,10 @@
     // Workaround for ctheorems package so that its labels keep the default link styling.
     if external-link-arrow and type(it.dest) != label {
       sym.wj
-      h(1.6pt)
+      h(1pt)
       sym.wj
-      super(box(height: 3.8pt, text(stroke: 0.5pt + rgb(114, 135, 253))[#arrow.tr]))
+      super(box(height: 3pt, text(stroke: 0.8pt + rgb(114, 135, 253))[\u{2197}]))
+      h(1.5pt)
     }
   }
 
