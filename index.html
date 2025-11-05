@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#1e1e2e" />
+    <title>PHY637 — Astrophysics I (Monsoon 2025)</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="static/style.css" />
+  </head>
+  <body>
+    <canvas id="bg" aria-hidden="true"></canvas>
+    <main>
+      <header class="hero">
+        <h1>PHY637 — Astrophysics I: Astrophysical Processes and Stars</h1>
+        <p class="subtitle">
+          Monsoon Semester 2025 • IISER Mohali • Instructor:
+          <a
+            href="https://en.wikipedia.org/wiki/Biman_B._Nath"
+            target="_blank"
+            rel="noopener"
+            >Prof. Biman Nath</a
+          >
+        </p>
+      </header>
+
+      <section aria-labelledby="about" class="section">
+        <h3 id="about">About the Project: Dark Energy</h3>
+        <p>
+          This repository contains the source for a term paper and a
+          presentation on <strong>Dark Energy</strong> completed to satisfy the
+          requirements of
+          <a
+            href="https://www.iisermohali.ac.in/files/webfolders/courses-of-study-2023_Updated/node326.html"
+            target="_blank"
+            rel="noopener"
+            >PHY637 — Astrophysics I</a
+          >.
+        </p>
+        <ul>
+          <li>
+            Paper typeset with
+            <a href="https://typst.app/" target="_blank" rel="noopener">Typst</a
+            >, a modern typesetting system.
+          </li>
+          <li>
+            Slides built with
+            <a href="https://polylux.dev/book" target="_blank" rel="noopener"
+              >Polylux</a
+            >
+            on top of Typst.
+          </li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="builds" class="section section--wide">
+        <h3 id="builds">Builds</h3>
+        <div class="grid">
+          <article class="card">
+            <h2>Presentation (Polylux)</h2>
+            <p>Minimal, fast slides compiled from Typst using Polylux.</p>
+            <div class="cta-row card-actions">
+              <a class="cta" href="pdfjs/web/viewer.html?file=../../slides.pdf#page=1&zoom=page-fit&spread=off">View Slides in Browser</a>
+              <a class="cta" href="slides.pdf" download>Download PDF</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h2>Term Paper</h2>
+            <p>
+              Typeset report compiled from Typst.
+            </p>
+            <div class="cta-row card-actions">
+              <a class="cta" href="pdfjs/web/viewer.html?file=../../paper.pdf#page=1&zoom=page-fit">Read in Browser</a>
+              <a class="cta" href="paper.pdf" download>Download PDF</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <footer class="footer">
+        Built with Typst • Hosted on GitHub Pages
+      </footer>
+    </main>
+
+    <script src="static/bg.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,248 @@
+/* Catppuccin Mocha */
+:root {
+  --ctp-lavender: #b4befe;
+  --ctp-mauve: #cba6f7;
+  --ctp-blue: #89b4fa;
+
+  --ctp-text: #cdd6f4;
+  --ctp-subtext: #a6adc8;
+  --ctp-overlay: #6c7086;
+
+  --ctp-surface0: #313244;
+  --ctp-surface1: #45475a;
+  --ctp-surface2: #585b70;
+
+  --ctp-base: #1e1e2e;
+
+  --radius: 12px;
+  --gap: 1rem;
+  --shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+  --focus: 0 0 0 3px rgba(137, 180, 250, 0.35);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family:
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    Arial,
+    sans-serif;
+  background: var(--ctp-base);
+  color: var(--ctp-text);
+  line-height: 1.55;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+#bg {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  display: block;
+  background: var(--ctp-base);
+  pointer-events: none;
+}
+
+@media (max-width: 700px) {
+  #bg {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  #bg {
+    display: none !important;
+  }
+}
+
+a {
+  color: var(--ctp-blue);
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:focus-visible {
+  outline: none;
+  box-shadow: var(--focus);
+  border-radius: 6px;
+}
+
+main {
+  max-width: 70ch;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  position: relative;
+  z-index: 1;
+}
+figure {
+  margin: 1.25rem 0;
+}
+figcaption {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(
+    180deg,
+    rgba(69, 71, 90, 0.55),
+    rgba(49, 50, 68, 0.25)
+  );
+  border: 1px solid rgba(148, 226, 213, 0.12);
+  border-radius: var(--radius);
+  padding: clamp(16px, 3vw, 28px);
+  box-shadow: var(--shadow);
+}
+h1 {
+  margin: 0 0 0.25rem 0;
+  font-size: clamp(1.35rem, 2.4vw + 0.9rem, 2.1rem);
+  line-height: 1.2;
+}
+.subtitle {
+  color: var(--ctp-subtext);
+  font-size: 0.98rem;
+  margin: 0.25rem 0 0 0;
+}
+
+/* CTA buttons */
+.cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+.cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid var(--ctp-surface2);
+  background: linear-gradient(180deg, var(--ctp-surface1), var(--ctp-surface0));
+  color: var(--ctp-text);
+  padding: 0.55rem 0.8rem;
+  border-radius: 0.55rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition:
+    transform 0.06s ease,
+    box-shadow 0.06s ease,
+    border-color 0.15s ease;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.35) inset;
+  min-height: 44px; /* touch target */
+}
+.cta:hover {
+  transform: translateY(-1px);
+  border-color: var(--ctp-blue);
+  text-decoration: none;
+}
+.cta:active {
+  transform: translateY(0);
+}
+.cta:focus-visible {
+  outline: none;
+  box-shadow: var(--focus);
+}
+
+/* Sections */
+.section {
+  margin-top: clamp(16px, 3vw, 28px);
+  border: 1px solid rgba(137, 180, 250, 0.1);
+  background: linear-gradient(
+    180deg,
+    rgba(49, 50, 68, 0.35),
+    rgba(17, 17, 27, 0.25)
+  );
+  border-radius: var(--radius);
+  padding: clamp(14px, 2.4vw, 24px);
+  box-shadow: var(--shadow);
+}
+.section h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.05rem;
+  color: var(--ctp-mauve);
+}
+ul {
+  padding-left: 1.1rem;
+  margin: 0.25rem 0 0 0;
+}
+li {
+  margin: 0.25rem 0;
+}
+
+.section--wide {
+  max-width: min(1200px, 96vw);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+  gap: var(--gap);
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  align-items: stretch;
+  margin-top: 1rem;
+}
+@media (min-width: 960px) {
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+}
+
+.card {
+  border: 1px solid rgba(203, 166, 247, 0.13);
+  background: linear-gradient(
+    180deg,
+    rgba(69, 71, 90, 0.35),
+    rgba(49, 50, 68, 0.35)
+  );
+  border-radius: var(--radius);
+  padding: 1rem;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  min-height: 220px;
+}
+.card h2 {
+  margin: 0 0 0.35rem 0;
+  font-size: 1.05rem;
+  color: var(--ctp-lavender);
+}
+.card p {
+  margin: 0.25rem 0 0.75rem 0;
+  color: var(--ctp-subtext);
+}
+.card .card-actions {
+  margin-top: auto;
+}
+
+.footer {
+  margin-top: 1.25rem;
+  color: var(--ctp-overlay);
+  font-size: 0.9rem;
+  text-align: center;
+}
+.sep {
+  opacity: 0.25;
+  margin: 0 0.4rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cta {
+    transition: none;
+  }
+}

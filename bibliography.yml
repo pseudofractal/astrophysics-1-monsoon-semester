@@ -1,0 +1,16 @@
+de-review:
+  type: Article
+  title: Dynamics of Dark Energy
+  author: ["Edmund J. Copeland", "M. Sami", "Shinji Tsujikawa"]
+  serial-number:
+    doi: "10.1142/S021827180600942X"
+  date: 2006-10-08
+
+dde-review:
+  type: Article
+  title: An overview of what current data can (and cannot yet) say about evolving dark energy
+  author: ["William Giarè", "Tariq Mahassen", "Eleonora Di Valentino", "Supriya Pan"]
+  serial-number:
+    doi: "10.1016/j.dark.2025.101906"
+  date: 2025-05
+
