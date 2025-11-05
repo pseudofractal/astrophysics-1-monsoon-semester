@@ -34,19 +34,6 @@ jobs:
           typst compile slides.typ slides.pdf
           typst compile paper.typ  paper.pdf
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-      - name: Build PDF.js generic viewer
-        run: |
-          git clone --depth=1 https://github.com/mozilla/pdf.js.git
-          cd pdf.js
-          npm ci
-          npx gulp generic
-          mkdir -p ../dist/pdfjs
-          cp -r build/generic/{web,build,cmaps,standard_fonts} ../dist/pdfjs/
-
       - name: Stage static site
         run: |
           mkdir -p dist
