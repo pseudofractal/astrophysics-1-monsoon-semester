@@ -1,16 +1,285 @@
-de-review:
+weinberg:
+  type: Book
+  title: "Gravitation and Cosmology: Principles and Applications of the General Theory of Relativity"
+  author: "Steven Weinberg"
+  serial-number:
+    isbn: "978-0-471-92567-5, 978-0-471-92567-5"
+  date: 1972
+
+perlmutter-supernovae:
   type: Article
+  title: "Measurements of Ω and Λ from 42 High-Redshift Supernovae"
+  author: ["S. Perlmutter", "G. Aldering", "G. Goldhaber", "R. A. Knop", "P. Nugent", "P. G. Castro"]
+  serial-number:
+    doi: "10.1086/307221"
+  date: 1998-12-17
+
+riess-supernovae:
+  type: Article
+  title: "Observational Evidence from Supernovae for an Accelerating Universe and a Cosmological Constant"
+  author: ["A. G. Riess", "A. V. Filippenko", "P. Challis", "A. Clocchiatti", "A. Diercks", "P. M. Garnavich"]
+  serial-number:
+    doi: "10.1086/300499"
+  date: 1998-09
+
+planck-2018-results:
+  type: article
+  title: '{Planck 2018 results. VI. Cosmological parameters}'
+  author:
+  - Planck Collaboration
+  - Aghanim, N.
+  - Akrami, Y.
+  - Ashdown, M.
+  - Aumont, J.
+  - Baccigalupi, C.
+  - Ballardini, M.
+  - Banday, A.~J.
+  - Barreiro, R.~B.
+  - Bartolo, N.
+  - Basak, S.
+  - Battye, R.
+  - Benabed, K.
+  - Bernard, J.-P.
+  - Bersanelli, M.
+  - Bielewicz, P.
+  - Bock, J.~J.
+  - Bond, J.~R.
+  - Borrill, J.
+  - Bouchet, F.~R.
+  - Boulanger, F.
+  - Bucher, M.
+  - Burigana, C.
+  - Butler, R.~C.
+  - Calabrese, E.
+  - Cardoso, J.-F.
+  - Carron, J.
+  - Challinor, A.
+  - Chiang, H.~C.
+  - Chluba, J.
+  - Colombo, L.~P.~L.
+  - Combet, C.
+  - Contreras, D.
+  - Crill, B.~P.
+  - Cuttaia, F.
+  - de Bernardis, P.
+  - de Zotti, G.
+  - Delabrouille, J.
+  - Delouis, J.-M.
+  - Di Valentino, E.
+  - Diego, J.~M.
+  - Doré, O.
+  - Douspis, M.
+  - Ducout, A.
+  - Dupac, X.
+  - Dusini, S.
+  - Efstathiou, G.
+  - Elsner, F.
+  - Enßlin, T.~A.
+  - Eriksen, H.~K.
+  - Fantaye, Y.
+  - Farhang, M.
+  - Fergusson, J.
+  - Fernandez-Cobos, R.
+  - Finelli, F.
+  - Forastieri, F.
+  - Frailis, M.
+  - Fraisse, A.~A.
+  - Franceschi, E.
+  - Frolov, A.
+  - Galeotta, S.
+  - Galli, S.
+  - Ganga, K.
+  - Génova-Santos, R.~T.
+  - Gerbino, M.
+  - Ghosh, T.
+  - González-Nuevo, J.
+  - Górski, K.~M.
+  - Gratton, S.
+  - Gruppuso, A.
+  - Gudmundsson, J.~E.
+  - Hamann, J.
+  - Handley, W.
+  - Hansen, F.~K.
+  - Herranz, D.
+  - Hildebrandt, S.~R.
+  - Hivon, E.
+  - Huang, Z.
+  - Jaffe, A.~H.
+  - Jones, W.~C.
+  - Karakci, A.
+  - Keihänen, E.
+  - Keskitalo, R.
+  - Kiiveri, K.
+  - Kim, J.
+  - Kisner, T.~S.
+  - Knox, L.
+  - Krachmalnicoff, N.
+  - Kunz, M.
+  - Kurki-Suonio, H.
+  - Lagache, G.
+  - Lamarre, J.-M.
+  - Lasenby, A.
+  - Lattanzi, M.
+  - Lawrence, C.~R.
+  - Le Jeune, M.
+  - Lemos, P.
+  - Lesgourgues, J.
+  - Levrier, F.
+  - Lewis, A.
+  - Liguori, M.
+  - Lilje, P.~B.
+  - Lilley, M.
+  - Lindholm, V.
+  - López-Caniego, M.
+  - Lubin, P.~M.
+  - Ma, Y.-Z.
+  - Mac\ias-Pérez, J.~F.
+  - Maggio, G.
+  - Maino, D.
+  - Mandolesi, N.
+  - Mangilli, A.
+  - Marcos-Caballero, A.
+  - Maris, M.
+  - Martin, P.~G.
+  - Martinelli, M.
+  - Mart\inez-González, E.
+  - Matarrese, S.
+  - Mauri, N.
+  - McEwen, J.~D.
+  - Meinhold, P.~R.
+  - Melchiorri, A.
+  - Mennella, A.
+  - Migliaccio, M.
+  - Millea, M.
+  - Mitra, S.
+  - Miville-Deschênes, M.-A.
+  - Molinari, D.
+  - Montier, L.
+  - Morgante, G.
+  - Moss, A.
+  - Natoli, P.
+  - Nørgaard-Nielsen, H.~U.
+  - Pagano, L.
+  - Paoletti, D.
+  - Partridge, B.
+  - Patanchon, G.
+  - Peiris, H.~V.
+  - Perrotta, F.
+  - Pettorino, V.
+  - Piacentini, F.
+  - Polastri, L.
+  - Polenta, G.
+  - Puget, J.-L.
+  - Rachen, J.~P.
+  - Reinecke, M.
+  - Remazeilles, M.
+  - Renzi, A.
+  - Rocha, G.
+  - Rosset, C.
+  - Roudier, G.
+  - Rubiño-Mart\in, J.~A.
+  - Ruiz-Granados, B.
+  - Salvati, L.
+  - Sandri, M.
+  - Savelainen, M.
+  - Scott, D.
+  - Shellard, E.~P.~S.
+  - Sirignano, C.
+  - Sirri, G.
+  - Spencer, L.~D.
+  - Sunyaev, R.
+  - Suur-Uski, A.-S.
+  - Tauber, J.~A.
+  - Tavagnacco, D.
+  - Tenti, M.
+  - Toffolatti, L.
+  - Tomasi, M.
+  - Trombetti, T.
+  - Valenziano, L.
+  - Valiviita, J.
+  - Van Tent, B.
+  - Vibert, L.
+  - Vielva, P.
+  - Villa, F.
+  - Vittorio, N.
+  - Wandelt, B.~D.
+  - Wehus, I.~K.
+  - White, M.
+  - White, S.~D.~M.
+  - Zacchei, A.
+  - Zonca, A.
+  date: 2020-09
+  page-range: A6
+  serial-number:
+    arxiv: '1807.06209'
+    doi: 10.1051/0004-6361/201833910
+  parent:
+    type: periodical
+    title: '\\aap'
+    volume: 641
+
+de-review:
+  type: article
   title: Dynamics of Dark Energy
   author: ["Edmund J. Copeland", "M. Sami", "Shinji Tsujikawa"]
+  date: 2006
+  page-range: 1753-1935
+  url: https://doi.org/10.1142/S021827180600942X
   serial-number:
-    doi: "10.1142/S021827180600942X"
-  date: 2006-10-08
+    doi: 10.1142/S021827180600942X
+  parent:
+    type: periodical
+    title: International Journal of Modern Physics D
+    issue: 11
+    volume: 15
 
 dde-review:
-  type: Article
+  type: article
   title: An overview of what current data can (and cannot yet) say about evolving dark energy
   author: ["William Giarè", "Tariq Mahassen", "Eleonora Di Valentino", "Supriya Pan"]
+  date: 2025
+  page-range: '101906'
+  url: https://www.sciencedirect.com/science/article/pii/S2212686425000998
   serial-number:
-    doi: "10.1016/j.dark.2025.101906"
-  date: 2025-05
+    doi: https://doi.org/10.1016/j.dark.2025.101906
+    issn: 2212-6864
+  abstract: 'Recent measurements of Baryon Acoustic Oscillations (BAO) and distance moduli from Type Ia supernovae suggest a preference for Dynamical Dark Energy (DDE) scenarios characterized by a time-varying equation of state (EoS). This focused review assesses its robustness across independent measurements and surveys. Using the Chevallier-Polarski-Linder (CPL) parametrization to describe the evolution of the DE EoS, we analyze over 35 dataset combinations, incorporating Planck Cosmic Microwave Background (CMB) anisotropies, three independent Type Ia supernova (SN) catalogs (PantheonPlus, Union3, DESY5), BAO measurements from DESI and SDSS, and expansion rate measurements H(z) inferred from the relative ages of massive, passively evolving galaxies at early cosmic times known as Cosmic Chronometers (CC). This review has two main objectives: first, to evaluate the statistical significance of the DDE preference across different dataset combinations, which incorporate varying sources of information. Specifically, we consider cases where only low-redshift probes are used in different combinations, others where individual low-redshift probes are analyzed together with CMB data, and finally, scenarios where high- and low-redshift probes are included in all possible independent combinations. Second, we provide a reader-friendly synthesis of what the latest cosmological and astrophysical probes can (and cannot yet) reveal about DDE. Overall, our findings highlight that combinations that simultaneously include PantheonPlus SN and SDSS BAO significantly weaken the preference for DDE. However, intriguing hints supporting DDE emerge in combinations that do not include DESI-BAO measurements: SDSS-BAO combined with SN from Union3 and DESY5 (with and without CMB) support the preference for DDE.'
+  parent:
+    type: periodical
+    title: Physics of the Dark Universe
+    volume: 48
+
+hu-sawicki:
+  type: article
+  title: Models of $f(R)$ cosmic acceleration that evade solar system tests
+  author:
+  - Hu, Wayne
+  - Sawicki, Ignacy
+  date: 2007-09
+  page-range: '64004'
+  url: https://link.aps.org/doi/10.1103/PhysRevD.76.064004
+  serial-number:
+    doi: 10.1103/PhysRevD.76.064004
+  parent:
+    type: periodical
+    title: Phys. Rev. D
+    publisher: American Physical Society
+    issue: 6
+    volume: 76
+
+petrov-intro-to-modified-gravity:
+  type: book
+  title: Introduction to {Modified} {Gravity}
+  author: Petrov, Albert
+  date: 2023
+  publisher:
+    name: Springer International Publishing AG
+    location: Cham
+  edition: 2nd ed
+  serial-number:
+    isbn: '9783031466342'
+  abstract: Intro – Preface – Contents – 1 Einstein Gravity and the Need for Its Modification – 2 Modifications of the Purely Geometric Sector – 2.1 Motivations – 2.2 upper R squaredR2-Gravity – 2.3 f left parenthesis upper R right parenthesisf(R)-Gravity – 2.4 Functions of Other Curvature Invariants – 2.5 Comments on Massive Gravity – 2.6 Conclusions – 3 Scalar-Tensor Gravities – 3.1 General Review – 3.2 Chern-Simons Modified Gravity – 3.2.1 The Four-Dimensional Chern-Simons Modified Gravity Action – 3.2.2 Classical Solutions – 3.2.3 Perturbative Generation – 3.3 Brans-Dicke Gravity – 3.4 Galileons – 3.5 Conclusions – 4 Vector-Tensor Gravities and Problem of Lorentz Symmetry Breaking in Gravity – 4.1 Introduction and Motivations – 4.2 Einstein-Aether Gravity – 4.3 Bumblebee Gravity – 4.4 Comments on Linearized Lorentz-Breaking Terms in Gravity – 4.5 Conclusions – 5 Horava-Lifshitz Gravity – 5.1 Introduction – 5.2 Basic Definitions – 5.3 Exact Solutions – 5.4 Modified Versions of HL Gravity – 5.5 Conclusions – 6 Nonlocal Gravity – 6.1 Motivations – 6.2 Some Results in Non-gravitational Nonlocal Theories – 6.3 Classical Solutions in Nonlocal Gravity Models – 6.4 Conclusions – 7 Comments on Non-Riemannian Gravity – 7.1 Introduction – 7.2 Metric-Affine Geometrical Tools – 7.3 Fermions in a Riemann-Cartan Space – 7.3.1 General Definitions – 7.3.2 One-Loop Induced Nieh-Yan Topological Term – 7.4 Metric-Affine Bumblebee Model – 7.4.1 Field Equations – 7.4.2 Spinor Sector and Spontaneous Lorentz Symmetry Breaking – 7.4.3 One-Loop Divergent Contributions to the Fermionic Effective Action – 7.5 Conclusions – 8 Summary – References – Index
+  parent:
+    type: book
+    title: '{SpringerBriefs} in {Physics} {Series}'
 
